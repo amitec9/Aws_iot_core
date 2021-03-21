@@ -9,9 +9,9 @@ uint8_t temprature_sens_read();
 #define MBEDTLS_ERR_NET_UNKNOWN_HOST                      -0x0052
 AWS_IOT Temp_test;   // AWS_IOT instance
 
-char WIFI_SSID[]="er"; //wifi ssid
-char WIFI_PASSWORD[]="AmitKumar";//wifi password
-char HOST_ADDRESS[]="a22eq4g0x3b0m1-ats.iot.ap-south-1.amazonaws.com";//aws host address http
+char WIFI_SSID[]="test"; //wifi ssid
+char WIFI_PASSWORD[]="test";//wifi password
+char HOST_ADDRESS[]="test";//aws host address http
 char CLIENT_ID[]= "Temp_test";//mqtt client
 char TOPIC_NAME[]= "$aws/things/Temp_testing/shadow/update";//mqtt topic name
 
